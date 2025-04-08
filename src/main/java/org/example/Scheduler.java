@@ -1,4 +1,6 @@
 package org.example;
 
-public class Scheduler {
+public interface Scheduler {
+    void schedule(Runnable task);
+    void shutdown();
 }
